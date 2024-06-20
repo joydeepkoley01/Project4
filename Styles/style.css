@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    overflow: hidden;
+}
+
+body {
+    margin: 4% 6% 5% 6%;
+}
+
+/* ----------------- */
+/* --Navbar Design --*/
+/* ----------------- */
+/* header {
+    margin-bottom: 100px;
+} */
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+body header nav .head {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    justify-content: space-around;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+}
+
+.list li {
+    cursor: pointer;
+}
+
+.list li:hover {
+    color: #9691e6;
+}
+
+.nav-button {
+    padding: 14px 28px;
+    border-radius: 12px;
+    border: none;
+    background-color: #5955b3;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* ---------------- */
+/* --Hero-Section-- */
+/* ---------------- */
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin-top: 55px;
+}
+
+.left-header {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 74px;
+    color: #3c2f60;
+}
+
+.left-header span {
+    color: #5955b3;
+}
+
+.description {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #828282;
+    margin-top: 28px;
+}
+.right-bgc-image{
+    height: 570px;
+    width: 680px;
+}
+.btn{
+    margin-top: 65px;
+}
